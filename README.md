@@ -1,3 +1,19 @@
+# USDC Multi-Hopping Demonstration - ProtoCCTP (Foundry)
+
+This repository is a demonstration of the ProtoCCTP feature, which enables Multi-Hopping of USDC tokens across multiple CCTP enabled blockchains. It showcases the VIA Labs' USDC Multi-Hop functionality, allowing users to send USDC from a source chain to a final recipient on a destination chain, traversing multiple intermediary chains.
+
+Built using Foundry, a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.
+
+## Overview
+
+**USDCHop** enables users to send **USDC** from one blockchain to another using a predetermined path of chains, ultimately delivering the tokens to the specified final recipient. The transfer of USDC hops from one chain to another until it reaches its destination.
+
+### Features:
+- **Cross-chain USDC Transfers**: Initiate a USDC transfer on a source chain and send it across multiple chains until it reaches the destination chain and the final recipient.
+- **Customizable Path**: Specify the exact path of chains through which the USDC should be transferred.
+
+This repository demonstrates the **VIA Labs USDC Feature** and the **ProtoCCTP** framework.
+
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
